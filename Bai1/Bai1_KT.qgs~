@@ -1,0 +1,2213 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.14.0-Pi" saveUserFull="Administrator" saveDateTime="2020-07-10T15:39:31" projectname="" saveUser="Administrator">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer name="UBND" id="UBND_f4fe5b6e_d491_4a73_95a1_0b48f92d5889" source="./UBND.shp|layername=UBND" legend_exp="" patch_size="-1,-1" expanded="1" legend_split_behavior="0" providerKey="ogr" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="SoBanNganh" id="SoBanNganh_3de9121d_3919_4078_8e46_430e81662247" source="./SoBanNganh.shp|layername=SoBanNganh" legend_exp="" patch_size="-1,-1" expanded="1" legend_split_behavior="0" providerKey="ogr" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-group name="Quan3" expanded="1" checked="Qt::Checked">
+      <customproperties/>
+      <layer-tree-layer name="BenhVien" id="BenhVien_442fc6d3_2b77_41f3_93e0_aff556ab9715" source="./BenhVien.shp|layername=BenhVien" legend_exp="" patch_size="-1,-1" expanded="1" legend_split_behavior="0" providerKey="ogr" checked="Qt::Checked">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer name="DuongGiaoThong" id="DuongGiaoThong_f69b52f0_e710_47c8_b29e_c609d54a4f3f" source="./DuongGiaoThong.shp|layername=DuongGiaoThong" legend_exp="" patch_size="-1,-1" expanded="1" legend_split_behavior="0" providerKey="ogr" checked="Qt::Checked">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer name="Phuong" id="Phuong_11c72785_54c5_4af4_8b4f_31d7f36ae190" source="./Phuong.shp|layername=Phuong" legend_exp="" patch_size="-1,-1" expanded="1" legend_split_behavior="0" providerKey="ogr" checked="Qt::Checked">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-layer name="DiaHinh" id="DiaHinh_6daabab0_59e4_431f_bcc8_dfce155ecb01" source="./DiaHinh.tif" legend_exp="" patch_size="-1,-1" expanded="1" legend_split_behavior="0" providerKey="gdal" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>DuongGiaoThong_f69b52f0_e710_47c8_b29e_c609d54a4f3f</item>
+      <item>BenhVien_442fc6d3_2b77_41f3_93e0_aff556ab9715</item>
+      <item>Phuong_11c72785_54c5_4af4_8b4f_31d7f36ae190</item>
+      <item>UBND_f4fe5b6e_d491_4a73_95a1_0b48f92d5889</item>
+      <item>SoBanNganh_3de9121d_3919_4078_8e46_430e81662247</item>
+      <item>DiaHinh_6daabab0_59e4_431f_bcc8_dfce155ecb01</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings mode="2" self-snapping="0" intersection-snapping="0" tolerance="12" minScale="0" enabled="1" type="1" maxScale="0" unit="1" scaleDependencyMode="0">
+    <individual-layer-settings>
+      <layer-setting units="1" tolerance="12" minScale="0" enabled="1" type="1" id="BenhVien_442fc6d3_2b77_41f3_93e0_aff556ab9715" maxScale="0"/>
+      <layer-setting units="1" tolerance="12" minScale="0" enabled="1" type="1" id="DuongGiaoThong_f69b52f0_e710_47c8_b29e_c609d54a4f3f" maxScale="0"/>
+      <layer-setting units="1" tolerance="12" minScale="0" enabled="1" type="1" id="Phuong_11c72785_54c5_4af4_8b4f_31d7f36ae190" maxScale="0"/>
+      <layer-setting units="1" tolerance="12" minScale="0" enabled="1" type="1" id="UBND_f4fe5b6e_d491_4a73_95a1_0b48f92d5889" maxScale="0"/>
+      <layer-setting units="1" tolerance="12" minScale="0" enabled="1" type="1" id="SoBanNganh_3de9121d_3919_4078_8e46_430e81662247" maxScale="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>106.66968947394497036</xmin>
+      <ymin>10.76403057767246096</ymin>
+      <xmax>106.70591951421252475</xmax>
+      <ymax>10.79302844550269569</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <DataPlotly>
+    <Option type="Map">
+      <Option name="dynamic_properties" type="Map">
+        <Option value="" name="name" type="QString"/>
+        <Option name="properties"/>
+        <Option value="collection" name="type" type="QString"/>
+      </Option>
+      <Option name="plot_layout" type="Map">
+        <Option value="" name="additional_info_expression" type="QString"/>
+        <Option value="group" name="bar_mode" type="QString"/>
+        <Option value="0" name="bargaps" type="double"/>
+        <Option value="false" name="bins_check" type="bool"/>
+        <Option value="true" name="legend" type="bool"/>
+        <Option value="v" name="legend_orientation" type="QString"/>
+        <Option name="legend_title" type="invalid"/>
+        <Option name="polar" type="Map">
+          <Option name="angularaxis" type="Map">
+            <Option value="clockwise" name="direction" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="range_slider" type="Map">
+          <Option value="1" name="borderwidth" type="int"/>
+          <Option value="false" name="visible" type="bool"/>
+        </Option>
+        <Option value="" name="title" type="QString"/>
+        <Option name="x_inv" type="invalid"/>
+        <Option name="x_max" type="invalid"/>
+        <Option name="x_min" type="invalid"/>
+        <Option value="" name="x_title" type="QString"/>
+        <Option value="linear" name="x_type" type="QString"/>
+        <Option name="xaxis" type="invalid"/>
+        <Option name="y_inv" type="invalid"/>
+        <Option name="y_max" type="invalid"/>
+        <Option name="y_min" type="invalid"/>
+        <Option value="" name="y_title" type="QString"/>
+        <Option value="linear" name="y_type" type="QString"/>
+        <Option value="" name="z_title" type="QString"/>
+      </Option>
+      <Option name="plot_properties" type="Map">
+        <Option name="additional_hover_text" type="invalid"/>
+        <Option value="10" name="bins" type="int"/>
+        <Option value="v" name="box_orientation" type="QString"/>
+        <Option value="false" name="box_outliers" type="bool"/>
+        <Option value="false" name="box_stat" type="bool"/>
+        <Option value="Greys" name="color_scale" type="QString"/>
+        <Option value="false" name="color_scale_data_defined_in_check" type="bool"/>
+        <Option value="false" name="color_scale_data_defined_in_invert_check" type="bool"/>
+        <Option value="fill" name="cont_type" type="QString"/>
+        <Option value="Fill" name="contour_type_combo" type="QString"/>
+        <Option value="false" name="cumulative" type="bool"/>
+        <Option name="custom" type="List">
+          <Option value="" type="QString"/>
+        </Option>
+        <Option value="auto" name="hover_label_position" type="QString"/>
+        <Option name="hover_label_text" type="invalid"/>
+        <Option value="all" name="hover_text" type="QString"/>
+        <Option value="#8ebad9" name="in_color" type="QString"/>
+        <Option value="false" name="invert_color_scale" type="bool"/>
+        <Option value="increasing" name="invert_hist" type="QString"/>
+        <Option value="Solid Line" name="line_combo" type="QString"/>
+        <Option value="solid" name="line_dash" type="QString"/>
+        <Option value="markers" name="marker" type="QString"/>
+        <Option value="10" name="marker_size" type="double"/>
+        <Option value="0" name="marker_symbol" type="int"/>
+        <Option value="Points" name="marker_type_combo" type="QString"/>
+        <Option value="1" name="marker_width" type="double"/>
+        <Option value="" name="name" type="QString"/>
+        <Option value="" name="normalization" type="QString"/>
+        <Option value="1" name="opacity" type="double"/>
+        <Option value="#1f77b4" name="out_color" type="QString"/>
+        <Option value="" name="point_combo" type="QString"/>
+        <Option value="false" name="selected_features_only" type="bool"/>
+        <Option value="false" name="show_colorscale_legend" type="bool"/>
+        <Option value="true" name="show_lines" type="bool"/>
+        <Option value="true" name="show_lines_check" type="bool"/>
+        <Option value="true" name="show_mean_line" type="bool"/>
+        <Option value="true" name="violin_box" type="bool"/>
+        <Option value="both" name="violin_side" type="QString"/>
+        <Option value="false" name="visible_features_only" type="bool"/>
+        <Option value="" name="x_name" type="QString"/>
+        <Option value="" name="y_name" type="QString"/>
+        <Option value="" name="z_name" type="QString"/>
+      </Option>
+      <Option value="scatter" name="plot_type" type="QString"/>
+      <Option value="Phuong_11c72785_54c5_4af4_8b4f_31d7f36ae190" name="source_layer_id" type="QString"/>
+    </Option>
+  </DataPlotly>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" name="UBND" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="UBND_f4fe5b6e_d491_4a73_95a1_0b48f92d5889" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="SoBanNganh" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="SoBanNganh_3de9121d_3919_4078_8e46_430e81662247" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendgroup name="Quan3" open="true" checked="Qt::Checked">
+      <legendlayer drawingOrder="-1" name="BenhVien" showFeatureCount="0" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="BenhVien_442fc6d3_2b77_41f3_93e0_aff556ab9715" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" name="DuongGiaoThong" showFeatureCount="0" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="DuongGiaoThong_f69b52f0_e710_47c8_b29e_c609d54a4f3f" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" name="Phuong" showFeatureCount="0" open="true" checked="Qt::Checked">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="Phuong_11c72785_54c5_4af4_8b4f_31d7f36ae190" visible="1"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendlayer drawingOrder="-1" name="DiaHinh" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="DiaHinh_6daabab0_59e4_431f_bcc8_dfce155ecb01" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyDrawingHints="0" minScale="100000000" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" autoRefreshTime="0" autoRefreshEnabled="0" readOnly="0" maxScale="0" styleCategories="AllStyleCategories" wkbType="MultiPoint" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="vector" geometry="Point" labelsEnabled="0">
+      <extent>
+        <xmin>106.6695364100000063</xmin>
+        <ymin>10.76757021999999964</ymin>
+        <xmax>106.68970142000000578</xmax>
+        <ymax>10.7896502200000004</ymax>
+      </extent>
+      <id>BenhVien_442fc6d3_2b77_41f3_93e0_aff556ab9715</id>
+      <datasource>./BenhVien.shp|layername=BenhVien</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>BenhVien</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" crs="" minx="0" maxy="0" dimensions="2" miny="0" maxx="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal mode="0" endExpression="" fixedDuration="0" accumulate="0" durationUnit="min" enabled="0" startExpression="" endField="" startField="" durationField="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="marker" force_rhr="0">
+            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="227,26,28,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="area" k="scale_method"/>
+              <prop v="5.2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="227,26,28,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="cross_fill" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="227,26,28,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.2" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="area" k="scale_method"/>
+              <prop v="3" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"fid_1"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory opacity="1" rotationOffset="270" showAxis="1" height="15" minScaleDenominator="0" lineSizeType="MM" direction="0" sizeType="MM" backgroundColor="#ffffff" spacing="5" maxScaleDenominator="1e+08" spacingUnitScale="3x:0,0,0,0,0,0" enabled="0" penAlpha="255" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" labelPlacementMethod="XHeight" penWidth="0" minimumSize="0" backgroundAlpha="255" diagramOrientation="Up" width="15" spacingUnit="MM">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <axisSymbol>
+            <symbol alpha="1" name="" clip_to_extent="1" type="line" force_rhr="0">
+              <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" name="name" type="QString"/>
+                    <Option name="properties"/>
+                    <Option value="collection" name="type" type="QString"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="0" zIndex="0" showAll="1" priority="0" linePlacementFlags="18" dist="0" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="fid_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="quan_huyen">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="phuong_xa">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="so_nha">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ten_duong">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ten">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="fid_1"/>
+        <alias index="1" name="" field="fid"/>
+        <alias index="2" name="" field="quan_huyen"/>
+        <alias index="3" name="" field="phuong_xa"/>
+        <alias index="4" name="" field="so_nha"/>
+        <alias index="5" name="" field="ten_duong"/>
+        <alias index="6" name="" field="ten"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="fid_1"/>
+        <default applyOnUpdate="0" expression="" field="fid"/>
+        <default applyOnUpdate="0" expression="" field="quan_huyen"/>
+        <default applyOnUpdate="0" expression="" field="phuong_xa"/>
+        <default applyOnUpdate="0" expression="" field="so_nha"/>
+        <default applyOnUpdate="0" expression="" field="ten_duong"/>
+        <default applyOnUpdate="0" expression="" field="ten"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="fid_1"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="fid"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="quan_huyen"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="phuong_xa"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="so_nha"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ten_duong"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ten"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="fid_1"/>
+        <constraint desc="" exp="" field="fid"/>
+        <constraint desc="" exp="" field="quan_huyen"/>
+        <constraint desc="" exp="" field="phuong_xa"/>
+        <constraint desc="" exp="" field="so_nha"/>
+        <constraint desc="" exp="" field="ten_duong"/>
+        <constraint desc="" exp="" field="ten"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column name="fid_1" type="field" width="-1" hidden="0"/>
+          <column name="fid" type="field" width="-1" hidden="0"/>
+          <column name="quan_huyen" type="field" width="-1" hidden="0"/>
+          <column name="phuong_xa" type="field" width="-1" hidden="0"/>
+          <column name="so_nha" type="field" width="-1" hidden="0"/>
+          <column name="ten_duong" type="field" width="-1" hidden="0"/>
+          <column name="ten" type="field" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="fid" editable="1"/>
+        <field name="fid_1" editable="1"/>
+        <field name="phuong_xa" editable="1"/>
+        <field name="quan_huyen" editable="1"/>
+        <field name="so_nha" editable="1"/>
+        <field name="ten" editable="1"/>
+        <field name="ten_duong" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="fid"/>
+        <field labelOnTop="0" name="fid_1"/>
+        <field labelOnTop="0" name="phuong_xa"/>
+        <field labelOnTop="0" name="quan_huyen"/>
+        <field labelOnTop="0" name="so_nha"/>
+        <field labelOnTop="0" name="ten"/>
+        <field labelOnTop="0" name="ten_duong"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"fid_1"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" minScale="1e+08" type="raster" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>472604.73136506881564856</xmin>
+        <ymin>1149477.48245649645105004</ymin>
+        <xmax>609314.73136506881564856</xmax>
+        <ymax>1219857.48245649645105004</ymax>
+      </extent>
+      <id>DiaHinh_6daabab0_59e4_431f_bcc8_dfce155ecb01</id>
+      <datasource>./DiaHinh.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>DiaHinh</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["VN-2000 / TM-3 105-45",BASEGEOGCRS["VN-2000",DATUM["Vietnam 2000",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4756]],CONVERSION["Vietnam TM-3 105-45",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",105.75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Vietnam - 105°15'E to 107°50'E by province - HCMC"],BBOX[9.75,105.26,23.12,107.8]],ID["EPSG",9210]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=105.75 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=-191.90441429,-39.30318279,-111.45032835,0.00928836,-0.01975479,0.00427372,0.252906278 +units=m +no_defs</proj4>
+          <srsid>63269</srsid>
+          <srid>520003269</srid>
+          <authid>EPSG:9210</authid>
+          <description>VN-2000 / TM-3 105-45</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" crs="" minx="0" maxy="0" dimensions="2" miny="0" maxx="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer classificationMin="-0.358293" classificationMax="4.04806" nodataColor="" type="singlebandpseudocolor" alphaBand="-1" band="1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" maximumValue="4.04806" minimumValue="-0.358293" classificationMode="1" clip="0">
+              <colorramp name="[source]" type="gradient">
+                <prop v="43,131,186,255" k="color1"/>
+                <prop v="215,25,28,255" k="color2"/>
+                <prop v="0" k="discrete"/>
+                <prop v="gradient" k="rampType"/>
+                <prop v="0.25;171,221,164,255:0.5;255,255,191,255:0.75;253,174,97,255" k="stops"/>
+              </colorramp>
+              <item value="-0.358293" color="#2b83ba" alpha="255" label="-0.358293"/>
+              <item value="0.74329525" color="#abdda4" alpha="255" label="0.74329525"/>
+              <item value="1.8448835" color="#ffffbf" alpha="255" label="1.8448835"/>
+              <item value="2.94647175" color="#fdae61" alpha="255" label="2.94647175"/>
+              <item value="4.04806" color="#d7191c" alpha="255" label="4.04806"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeGreen="128" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeOn="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyDrawingHints="1" minScale="100000000" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" autoRefreshTime="0" autoRefreshEnabled="0" readOnly="0" maxScale="0" styleCategories="AllStyleCategories" wkbType="MultiLineString" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="vector" geometry="Line" labelsEnabled="0">
+      <extent>
+        <xmin>106.66419992999999522</xmin>
+        <ymin>10.76540929999999996</ymin>
+        <xmax>106.69814755000000162</xmax>
+        <ymax>10.79258036000000054</ymax>
+      </extent>
+      <id>DuongGiaoThong_f69b52f0_e710_47c8_b29e_c609d54a4f3f</id>
+      <datasource>./DuongGiaoThong.shp|layername=DuongGiaoThong</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>DuongGiaoThong</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal mode="0" endExpression="" fixedDuration="0" accumulate="0" durationUnit="min" enabled="0" startExpression="" endField="" startField="" durationField="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="line" force_rhr="0">
+            <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="183,72,75,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="fid_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ten_duong">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="motchieu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cap_duong">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="fid_1"/>
+        <alias index="1" name="" field="fid"/>
+        <alias index="2" name="" field="ten_duong"/>
+        <alias index="3" name="" field="motchieu"/>
+        <alias index="4" name="" field="cap_duong"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="fid_1"/>
+        <default applyOnUpdate="0" expression="" field="fid"/>
+        <default applyOnUpdate="0" expression="" field="ten_duong"/>
+        <default applyOnUpdate="0" expression="" field="motchieu"/>
+        <default applyOnUpdate="0" expression="" field="cap_duong"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="fid_1"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="fid"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ten_duong"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="motchieu"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="cap_duong"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="fid_1"/>
+        <constraint desc="" exp="" field="fid"/>
+        <constraint desc="" exp="" field="ten_duong"/>
+        <constraint desc="" exp="" field="motchieu"/>
+        <constraint desc="" exp="" field="cap_duong"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyDrawingHints="1" minScale="100000000" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" autoRefreshTime="0" autoRefreshEnabled="0" readOnly="0" maxScale="0" styleCategories="AllStyleCategories" wkbType="MultiPolygon" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="vector" geometry="Polygon" labelsEnabled="0">
+      <extent>
+        <xmin>106.66429368999999383</xmin>
+        <ymin>10.76542698000000087</ymin>
+        <xmax>106.69808055000000024</xmax>
+        <ymax>10.79251900000000042</ymax>
+      </extent>
+      <id>Phuong_11c72785_54c5_4af4_8b4f_31d7f36ae190</id>
+      <datasource>./Phuong.shp|layername=Phuong</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Phuong</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" crs="" minx="0" maxy="0" dimensions="2" miny="0" maxx="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal mode="0" endExpression="" fixedDuration="0" accumulate="0" durationUnit="min" enabled="0" startExpression="" endField="" startField="" durationField="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="fill" force_rhr="0">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="225,211,215,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"fid_1"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory opacity="1" rotationOffset="270" showAxis="1" height="15" minScaleDenominator="0" lineSizeType="MM" direction="0" sizeType="MM" backgroundColor="#ffffff" spacing="5" maxScaleDenominator="1e+08" spacingUnitScale="3x:0,0,0,0,0,0" enabled="0" penAlpha="255" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" labelPlacementMethod="XHeight" penWidth="0" minimumSize="0" backgroundAlpha="255" diagramOrientation="Up" width="15" spacingUnit="MM">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <axisSymbol>
+            <symbol alpha="1" name="" clip_to_extent="1" type="line" force_rhr="0">
+              <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" name="name" type="QString"/>
+                    <Option name="properties"/>
+                    <Option value="collection" name="type" type="QString"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="1" zIndex="0" showAll="1" priority="0" linePlacementFlags="18" dist="0" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option value="0" name="allowedGapsBuffer" type="double"/>
+            <Option value="false" name="allowedGapsEnabled" type="bool"/>
+            <Option value="" name="allowedGapsLayer" type="QString"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="fid_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maphuong">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="maquan">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tenphuong">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tenquan">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="fid_1"/>
+        <alias index="1" name="" field="fid"/>
+        <alias index="2" name="" field="maphuong"/>
+        <alias index="3" name="" field="maquan"/>
+        <alias index="4" name="" field="tenphuong"/>
+        <alias index="5" name="" field="tenquan"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="fid_1"/>
+        <default applyOnUpdate="0" expression="" field="fid"/>
+        <default applyOnUpdate="0" expression="" field="maphuong"/>
+        <default applyOnUpdate="0" expression="" field="maquan"/>
+        <default applyOnUpdate="0" expression="" field="tenphuong"/>
+        <default applyOnUpdate="0" expression="" field="tenquan"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="fid_1"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="fid"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="maphuong"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="maquan"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="tenphuong"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="tenquan"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="fid_1"/>
+        <constraint desc="" exp="" field="fid"/>
+        <constraint desc="" exp="" field="maphuong"/>
+        <constraint desc="" exp="" field="maquan"/>
+        <constraint desc="" exp="" field="tenphuong"/>
+        <constraint desc="" exp="" field="tenquan"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column name="fid_1" type="field" width="-1" hidden="0"/>
+          <column name="fid" type="field" width="-1" hidden="0"/>
+          <column name="maphuong" type="field" width="-1" hidden="0"/>
+          <column name="maquan" type="field" width="-1" hidden="0"/>
+          <column name="tenphuong" type="field" width="-1" hidden="0"/>
+          <column name="tenquan" type="field" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="fid" editable="1"/>
+        <field name="fid_1" editable="1"/>
+        <field name="maphuong" editable="1"/>
+        <field name="maquan" editable="1"/>
+        <field name="tenphuong" editable="1"/>
+        <field name="tenquan" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="fid"/>
+        <field labelOnTop="0" name="fid_1"/>
+        <field labelOnTop="0" name="maphuong"/>
+        <field labelOnTop="0" name="maquan"/>
+        <field labelOnTop="0" name="tenphuong"/>
+        <field labelOnTop="0" name="tenquan"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"fid_1"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyDrawingHints="0" minScale="100000000" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" autoRefreshTime="0" autoRefreshEnabled="0" readOnly="0" maxScale="0" styleCategories="AllStyleCategories" wkbType="Point" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="vector" geometry="Point" labelsEnabled="0">
+      <extent>
+        <xmin>106.66656869999999913</xmin>
+        <ymin>10.75429860999999931</ymin>
+        <xmax>106.74063171000000239</xmax>
+        <ymax>10.79595360999999976</ymax>
+      </extent>
+      <id>SoBanNganh_3de9121d_3919_4078_8e46_430e81662247</id>
+      <datasource>./SoBanNganh.shp|layername=SoBanNganh</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>SoBanNganh</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" crs="" minx="0" maxy="0" dimensions="2" miny="0" maxx="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal mode="0" endExpression="" fixedDuration="0" accumulate="0" durationUnit="min" enabled="0" startExpression="" endField="" startField="" durationField="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="marker" force_rhr="0">
+            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="0,0,0,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="255,255,255,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory opacity="1" rotationOffset="270" showAxis="1" height="15" minScaleDenominator="0" lineSizeType="MM" direction="0" sizeType="MM" backgroundColor="#ffffff" spacing="5" maxScaleDenominator="1e+08" spacingUnitScale="3x:0,0,0,0,0,0" enabled="0" penAlpha="255" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" labelPlacementMethod="XHeight" penWidth="0" minimumSize="0" backgroundAlpha="255" diagramOrientation="Up" width="15" spacingUnit="MM">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <axisSymbol>
+            <symbol alpha="1" name="" clip_to_extent="1" type="line" force_rhr="0">
+              <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" name="name" type="QString"/>
+                    <Option name="properties"/>
+                    <Option value="collection" name="type" type="QString"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="0" zIndex="0" showAll="1" priority="0" linePlacementFlags="18" dist="0" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="fid_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="diachi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dienthoai">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="website">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fax">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ten">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="fid_1"/>
+        <alias index="1" name="" field="fid"/>
+        <alias index="2" name="" field="diachi"/>
+        <alias index="3" name="" field="dienthoai"/>
+        <alias index="4" name="" field="website"/>
+        <alias index="5" name="" field="fax"/>
+        <alias index="6" name="" field="lat"/>
+        <alias index="7" name="" field="lng"/>
+        <alias index="8" name="" field="ten"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="fid_1"/>
+        <default applyOnUpdate="0" expression="" field="fid"/>
+        <default applyOnUpdate="0" expression="" field="diachi"/>
+        <default applyOnUpdate="0" expression="" field="dienthoai"/>
+        <default applyOnUpdate="0" expression="" field="website"/>
+        <default applyOnUpdate="0" expression="" field="fax"/>
+        <default applyOnUpdate="0" expression="" field="lat"/>
+        <default applyOnUpdate="0" expression="" field="lng"/>
+        <default applyOnUpdate="0" expression="" field="ten"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="fid_1"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="fid"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="diachi"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="dienthoai"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="website"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="fax"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="lat"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="lng"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ten"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="fid_1"/>
+        <constraint desc="" exp="" field="fid"/>
+        <constraint desc="" exp="" field="diachi"/>
+        <constraint desc="" exp="" field="dienthoai"/>
+        <constraint desc="" exp="" field="website"/>
+        <constraint desc="" exp="" field="fax"/>
+        <constraint desc="" exp="" field="lat"/>
+        <constraint desc="" exp="" field="lng"/>
+        <constraint desc="" exp="" field="ten"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column name="fid_1" type="field" width="-1" hidden="0"/>
+          <column name="fid" type="field" width="-1" hidden="0"/>
+          <column name="diachi" type="field" width="-1" hidden="0"/>
+          <column name="dienthoai" type="field" width="-1" hidden="0"/>
+          <column name="website" type="field" width="-1" hidden="0"/>
+          <column name="fax" type="field" width="-1" hidden="0"/>
+          <column name="lat" type="field" width="-1" hidden="0"/>
+          <column name="lng" type="field" width="-1" hidden="0"/>
+          <column name="ten" type="field" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="diachi" editable="1"/>
+        <field name="dienthoai" editable="1"/>
+        <field name="fax" editable="1"/>
+        <field name="fid" editable="1"/>
+        <field name="fid_1" editable="1"/>
+        <field name="lat" editable="1"/>
+        <field name="lng" editable="1"/>
+        <field name="ten" editable="1"/>
+        <field name="website" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="diachi"/>
+        <field labelOnTop="0" name="dienthoai"/>
+        <field labelOnTop="0" name="fax"/>
+        <field labelOnTop="0" name="fid"/>
+        <field labelOnTop="0" name="fid_1"/>
+        <field labelOnTop="0" name="lat"/>
+        <field labelOnTop="0" name="lng"/>
+        <field labelOnTop="0" name="ten"/>
+        <field labelOnTop="0" name="website"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"fid_1"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyDrawingHints="0" minScale="100000000" simplifyLocal="1" simplifyMaxScale="1" simplifyAlgorithm="0" autoRefreshTime="0" autoRefreshEnabled="0" readOnly="0" maxScale="0" styleCategories="AllStyleCategories" wkbType="Point" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" type="vector" geometry="Point" labelsEnabled="0">
+      <extent>
+        <xmin>106.39834442999999453</xmin>
+        <ymin>10.39806916000000037</ymin>
+        <xmax>106.96429338000000087</xmax>
+        <ymax>11.13058428000000077</ymax>
+      </extent>
+      <id>UBND_f4fe5b6e_d491_4a73_95a1_0b48f92d5889</id>
+      <datasource>./UBND.shp|layername=UBND</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>UBND</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" crs="" minx="0" maxy="0" dimensions="2" miny="0" maxx="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal mode="0" endExpression="" fixedDuration="0" accumulate="0" durationUnit="min" enabled="0" startExpression="" endField="" startField="" durationField="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" name="0" clip_to_extent="1" type="marker" force_rhr="0">
+            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.2" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="area" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="0,0,0,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0,0,0,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="area" k="scale_method"/>
+              <prop v="0.4375" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory opacity="1" rotationOffset="270" showAxis="1" height="15" minScaleDenominator="0" lineSizeType="MM" direction="0" sizeType="MM" backgroundColor="#ffffff" spacing="5" maxScaleDenominator="1e+08" spacingUnitScale="3x:0,0,0,0,0,0" enabled="0" penAlpha="255" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" penColor="#000000" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" labelPlacementMethod="XHeight" penWidth="0" minimumSize="0" backgroundAlpha="255" diagramOrientation="Up" width="15" spacingUnit="MM">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <axisSymbol>
+            <symbol alpha="1" name="" clip_to_extent="1" type="line" force_rhr="0">
+              <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" name="name" type="QString"/>
+                    <Option name="properties"/>
+                    <Option value="collection" name="type" type="QString"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="0" zIndex="0" showAll="1" priority="0" linePlacementFlags="18" dist="0" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="fid_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="quan_huyen">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ten_ubnd">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dien_thoai">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="web">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="email">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="so_nha">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ten_duong">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="phuong_xa">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="x">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cap">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cap_id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="fid_1"/>
+        <alias index="1" name="" field="fid"/>
+        <alias index="2" name="" field="id"/>
+        <alias index="3" name="" field="quan_huyen"/>
+        <alias index="4" name="" field="ten_ubnd"/>
+        <alias index="5" name="" field="dien_thoai"/>
+        <alias index="6" name="" field="web"/>
+        <alias index="7" name="" field="email"/>
+        <alias index="8" name="" field="so_nha"/>
+        <alias index="9" name="" field="ten_duong"/>
+        <alias index="10" name="" field="phuong_xa"/>
+        <alias index="11" name="" field="x"/>
+        <alias index="12" name="" field="y"/>
+        <alias index="13" name="" field="cap"/>
+        <alias index="14" name="" field="cap_id"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="fid_1"/>
+        <default applyOnUpdate="0" expression="" field="fid"/>
+        <default applyOnUpdate="0" expression="" field="id"/>
+        <default applyOnUpdate="0" expression="" field="quan_huyen"/>
+        <default applyOnUpdate="0" expression="" field="ten_ubnd"/>
+        <default applyOnUpdate="0" expression="" field="dien_thoai"/>
+        <default applyOnUpdate="0" expression="" field="web"/>
+        <default applyOnUpdate="0" expression="" field="email"/>
+        <default applyOnUpdate="0" expression="" field="so_nha"/>
+        <default applyOnUpdate="0" expression="" field="ten_duong"/>
+        <default applyOnUpdate="0" expression="" field="phuong_xa"/>
+        <default applyOnUpdate="0" expression="" field="x"/>
+        <default applyOnUpdate="0" expression="" field="y"/>
+        <default applyOnUpdate="0" expression="" field="cap"/>
+        <default applyOnUpdate="0" expression="" field="cap_id"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="fid_1"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="fid"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="id"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="quan_huyen"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ten_ubnd"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="dien_thoai"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="web"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="email"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="so_nha"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="ten_duong"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="phuong_xa"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="x"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="y"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="cap"/>
+        <constraint exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0" field="cap_id"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="fid_1"/>
+        <constraint desc="" exp="" field="fid"/>
+        <constraint desc="" exp="" field="id"/>
+        <constraint desc="" exp="" field="quan_huyen"/>
+        <constraint desc="" exp="" field="ten_ubnd"/>
+        <constraint desc="" exp="" field="dien_thoai"/>
+        <constraint desc="" exp="" field="web"/>
+        <constraint desc="" exp="" field="email"/>
+        <constraint desc="" exp="" field="so_nha"/>
+        <constraint desc="" exp="" field="ten_duong"/>
+        <constraint desc="" exp="" field="phuong_xa"/>
+        <constraint desc="" exp="" field="x"/>
+        <constraint desc="" exp="" field="y"/>
+        <constraint desc="" exp="" field="cap"/>
+        <constraint desc="" exp="" field="cap_id"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column name="fid_1" type="field" width="-1" hidden="0"/>
+          <column name="fid" type="field" width="-1" hidden="0"/>
+          <column name="id" type="field" width="-1" hidden="0"/>
+          <column name="quan_huyen" type="field" width="-1" hidden="0"/>
+          <column name="ten_ubnd" type="field" width="-1" hidden="0"/>
+          <column name="dien_thoai" type="field" width="-1" hidden="0"/>
+          <column name="web" type="field" width="-1" hidden="0"/>
+          <column name="email" type="field" width="-1" hidden="0"/>
+          <column name="so_nha" type="field" width="-1" hidden="0"/>
+          <column name="ten_duong" type="field" width="-1" hidden="0"/>
+          <column name="phuong_xa" type="field" width="-1" hidden="0"/>
+          <column name="x" type="field" width="-1" hidden="0"/>
+          <column name="y" type="field" width="-1" hidden="0"/>
+          <column name="cap" type="field" width="-1" hidden="0"/>
+          <column name="cap_id" type="field" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="cap" editable="1"/>
+        <field name="cap_id" editable="1"/>
+        <field name="dien_thoai" editable="1"/>
+        <field name="email" editable="1"/>
+        <field name="fid" editable="1"/>
+        <field name="fid_1" editable="1"/>
+        <field name="id" editable="1"/>
+        <field name="phuong_xa" editable="1"/>
+        <field name="quan_huyen" editable="1"/>
+        <field name="so_nha" editable="1"/>
+        <field name="ten_duong" editable="1"/>
+        <field name="ten_ubnd" editable="1"/>
+        <field name="web" editable="1"/>
+        <field name="x" editable="1"/>
+        <field name="y" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="cap"/>
+        <field labelOnTop="0" name="cap_id"/>
+        <field labelOnTop="0" name="dien_thoai"/>
+        <field labelOnTop="0" name="email"/>
+        <field labelOnTop="0" name="fid"/>
+        <field labelOnTop="0" name="fid_1"/>
+        <field labelOnTop="0" name="id"/>
+        <field labelOnTop="0" name="phuong_xa"/>
+        <field labelOnTop="0" name="quan_huyen"/>
+        <field labelOnTop="0" name="so_nha"/>
+        <field labelOnTop="0" name="ten_duong"/>
+        <field labelOnTop="0" name="ten_ubnd"/>
+        <field labelOnTop="0" name="web"/>
+        <field labelOnTop="0" name="x"/>
+        <field labelOnTop="0" name="y"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"fid_1"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="DuongGiaoThong_f69b52f0_e710_47c8_b29e_c609d54a4f3f"/>
+    <layer id="BenhVien_442fc6d3_2b77_41f3_93e0_aff556ab9715"/>
+    <layer id="Phuong_11c72785_54c5_4af4_8b4f_31d7f36ae190"/>
+    <layer id="UBND_f4fe5b6e_d491_4a73_95a1_0b48f92d5889"/>
+    <layer id="SoBanNganh_3de9121d_3919_4078_8e46_430e81662247"/>
+    <layer id="DiaHinh_6daabab0_59e4_431f_bcc8_dfce155ecb01"/>
+  </layerorder>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7030</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SemiAutomaticClassificationPlugin>
+      <SCP_DownloadTable type="QString"></SCP_DownloadTable>
+      <bandSetsList type="QString">[['Yes', 0, 0, [], [], 'band number', [[], []], 'Band set 0', '']]</bandSetsList>
+      <bndSetNumber type="QString">0</bndSetNumber>
+    </SemiAutomaticClassificationPlugin>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option value="" name="name" type="QString"/>
+      <Option name="properties"/>
+      <Option value="collection" name="type" type="QString"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext>
+    <srcDest allowFallback="1" coordinateOp="+proj=pipeline +step +inv +proj=tmerc +lat_0=0 +lon_0=105.75 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +step +proj=push +v_3 +step +proj=cart +ellps=WGS84 +step +proj=helmert +x=-191.90441429 +y=-39.30318279 +z=-111.45032835 +rx=-0.00928836 +ry=0.01975479 +rz=-0.00427372 +s=0.252906278 +convention=coordinate_frame +step +inv +proj=cart +ellps=WGS84 +step +proj=pop +v_3 +step +proj=unitconvert +xy_in=rad +xy_out=deg">
+      <src>
+        <spatialrefsys>
+          <wkt>PROJCRS["VN-2000 / TM-3 105-45",BASEGEOGCRS["VN-2000",DATUM["Vietnam 2000",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4756]],CONVERSION["Vietnam TM-3 105-45",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",105.75,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Vietnam - 105°15'E to 107°50'E by province - HCMC"],BBOX[9.75,105.26,23.12,107.8]],ID["EPSG",9210]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=105.75 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +towgs84=-191.90441429,-39.30318279,-111.45032835,0.00928836,-0.01975479,0.00427372,0.252906278 +units=m +no_defs</proj4>
+          <srsid>63269</srsid>
+          <srid>520003269</srid>
+          <authid>EPSG:9210</authid>
+          <description>VN-2000 / TM-3 105-45</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </src>
+      <dest>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </dest>
+    </srcDest>
+  </transformContext>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Administrator</author>
+    <creation>2020-07-10T15:23:20</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+  <ProjectTimeSettings timeStepUnit="h" frameRate="1" cumulativeTemporalRange="0" timeStep="1"/>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option value="" name="decimal_separator" type="QChar"/>
+        <Option value="6" name="decimals" type="int"/>
+        <Option value="0" name="direction_format" type="int"/>
+        <Option value="0" name="rounding_type" type="int"/>
+        <Option value="false" name="show_plus" type="bool"/>
+        <Option value="true" name="show_thousand_separator" type="bool"/>
+        <Option value="false" name="show_trailing_zeros" type="bool"/>
+        <Option value="" name="thousand_separator" type="QChar"/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>
